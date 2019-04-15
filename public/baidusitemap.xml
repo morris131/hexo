@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/posts/c2c6eabe.html</loc>
+    <lastmod>2019-04-15T08:23:49.922Z</lastmod>
+    <data>
+        <display>
+        <title>循环依赖的三种方式</title>
+        <pubTime>2018-09-12T10:16:22.000Z</pubTime>
+        
+        <tag>spring </tag>
+         
+        <tag>循环依赖 </tag>
+         
+         
+           
+             
+              <breadCrumb title="spring" url="http://yoursite.com/categories/spring/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
