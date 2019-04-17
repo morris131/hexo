@@ -3,6 +3,132 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/28519d34.html</loc>
+    <lastmod>2019-04-17T11:59:59.242Z</lastmod>
+    <data>
+        <display>
+        <title>netty helloworld</title>
+        <pubTime>2019-04-16T16:00:00.000Z</pubTime>
+        
+        <tag>netty </tag>
+         
+         
+           
+             
+              <breadCrumb title="netty" url="http://yoursite.com/categories/netty/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/49c196a8.html</loc>
+    <lastmod>2019-04-17T11:58:37.198Z</lastmod>
+    <data>
+        <display>
+        <title>AIO</title>
+        <pubTime>2019-04-16T16:00:00.000Z</pubTime>
+        
+        <tag>AIO </tag>
+         
+        <tag>netty </tag>
+         
+         
+           
+             
+              <breadCrumb title="netty" url="http://yoursite.com/categories/netty/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/429dd195.html</loc>
+    <lastmod>2019-04-17T11:58:00.039Z</lastmod>
+    <data>
+        <display>
+        <title>NIO</title>
+        <pubTime>2019-04-16T16:00:00.000Z</pubTime>
+        
+        <tag>netty </tag>
+         
+        <tag>NIO </tag>
+         
+         
+           
+             
+              <breadCrumb title="netty" url="http://yoursite.com/categories/netty/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/66487d6f.html</loc>
+    <lastmod>2019-04-17T11:56:49.400Z</lastmod>
+    <data>
+        <display>
+        <title>伪异步IO</title>
+        <pubTime>2019-04-16T16:00:00.000Z</pubTime>
+        
+        <tag>netty </tag>
+         
+         
+           
+             
+              <breadCrumb title="netty" url="http://yoursite.com/categories/netty/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/4b8728f1.html</loc>
+    <lastmod>2019-04-17T11:48:41.454Z</lastmod>
+    <data>
+        <display>
+        <title>BIO</title>
+        <pubTime>2019-04-16T16:00:00.000Z</pubTime>
+        
+        <tag>netty </tag>
+         
+        <tag>BIO </tag>
+         
+         
+           
+             
+              <breadCrumb title="netty" url="http://yoursite.com/categories/netty/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/cde0db97.html</loc>
+    <lastmod>2019-04-17T10:24:07.849Z</lastmod>
+    <data>
+        <display>
+        <title>四种IO的比较</title>
+        <pubTime>2019-04-16T16:00:00.000Z</pubTime>
+        
+        <tag>netty </tag>
+         
+         
+           
+             
+              <breadCrumb title="netty" url="http://yoursite.com/categories/netty/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/3765ef4c.html</loc>
     <lastmod>2019-04-17T08:03:50.901Z</lastmod>
     <data>

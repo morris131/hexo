@@ -93,3 +93,4 @@ deploy:
     type: git
     repo: 
         github: git@github.com:morris131/morris131.git,master
+        gitee: git@gitee.com:morris131/morris131.git,master
