@@ -94,13 +94,18 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="欢迎来到Morris的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="可以设置BeyondCompare作为git的比较和合并的可视化工具,方便操作.设置如下:  先下载并安装BeyondCompare 命令输入如下配置1234567891011#difftool 配置git config --global diff.tool bc4git config --global difftool.bc4.cmd &amp;quot;\&amp;quot;C:/Program Files/">
+<meta name="keywords" content="git,mergetool,BeyondCompare">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git设置mergetool可视化工具BeyondCompare">
+<meta property="og:url" content="http://yoursite.com/posts/3765ef4c.html">
 <meta property="og:site_name" content="欢迎来到Morris的博客">
+<meta property="og:description" content="可以设置BeyondCompare作为git的比较和合并的可视化工具,方便操作.设置如下:  先下载并安装BeyondCompare 命令输入如下配置1234567891011#difftool 配置git config --global diff.tool bc4git config --global difftool.bc4.cmd &amp;quot;\&amp;quot;C:/Program Files/">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-04-17T08:03:50.901Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="欢迎来到Morris的博客">
+<meta name="twitter:title" content="git设置mergetool可视化工具BeyondCompare">
+<meta name="twitter:description" content="可以设置BeyondCompare作为git的比较和合并的可视化工具,方便操作.设置如下:  先下载并安装BeyondCompare 命令输入如下配置1234567891011#difftool 配置git config --global diff.tool bc4git config --global difftool.bc4.cmd &amp;quot;\&amp;quot;C:/Program Files/">
 
 
 
@@ -108,7 +113,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/posts/3765ef4c">
 
 
 
@@ -118,7 +123,7 @@
   };
 </script>
 
-  <title>欢迎来到Morris的博客</title>
+  <title>git设置mergetool可视化工具BeyondCompare | 欢迎来到Morris的博客</title>
   
 
 
@@ -166,8 +171,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -205,7 +209,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -347,9 +351,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -381,10 +385,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/posts/3765ef4c.html" class="post-title-link" itemprop="url">git设置mergetool可视化工具BeyondCompare</a>
+          <h1 class="post-title" itemprop="name headline">git设置mergetool可视化工具BeyondCompare
+
               
             
           </h1>
@@ -478,25 +480,15 @@
       
 
       
-        
-          
-            <p>
-              可以设置BeyondCompare作为git的比较和合并的可视化工具,方便操作.设置如下:
+        <p>可以设置BeyondCompare作为git的比较和合并的可视化工具,方便操作.<br>设置如下:</p>
+<ol>
+<li>先下载并安装BeyondCompare</li>
+<li>命令输入如下配置<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#difftool 配置</span><br><span class="line">git config --global diff.tool bc4</span><br><span class="line">git config --global difftool.bc4.cmd &quot;\&quot;C:/Program Files/Beyond Compare 4/BComp.exe\&quot; \&quot;$LOCAL\&quot; \&quot;$REMOTE\&quot;&quot;</span><br><span class="line"></span><br><span class="line">#mergeftool 配置</span><br><span class="line">git config --global merge.tool bc4</span><br><span class="line">git config --global mergetool.bc4.cmd  &quot;\&quot;C:/Program Files/Beyond Compare 4/BComp.exe\&quot; \&quot;$LOCAL\&quot; \&quot;$REMOTE\&quot; \&quot;$BASE\&quot; \&quot;$MERGED\&quot;&quot;</span><br><span class="line">git config --global mergetool.bc4.trustExitCode true</span><br><span class="line"></span><br><span class="line">#让git mergetool不再生成备份文件（*.orig）</span><br><span class="line">git config --global mergetool.keepBackup false</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>若未生效，直接修改用户目录下.gitconfig文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[diff]</span><br><span class="line">	tool = bc4</span><br><span class="line">[difftool &quot;bc4&quot;]</span><br><span class="line">	cmd = \&quot;C:/Program Files/Beyond Compare 4/BComp.exe\&quot; \&quot;$LOCAL\&quot; \&quot;$REMOTE\&quot;</span><br><span class="line">[merge]</span><br><span class="line">	tool = bc4</span><br><span class="line">[mergetool &quot;bc4&quot;]</span><br><span class="line">	cmd = \&quot;C:/Program Files/Beyond Compare 4/BComp.exe\&quot; \&quot;$LOCAL\&quot; \&quot;$REMOTE\&quot; \&quot;$BASE\&quot; \&quot;$MERGED\&quot;</span><br><span class="line">	trustExitCode = true</span><br><span class="line">[mergetool]</span><br><span class="line">	keepBackup = false</span><br></pre></td></tr></table></figure></p>
+<p>使用方法如下:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># diff使用方法:</span><br><span class="line">git difftool HEAD // 比较当前修改情况</span><br><span class="line"></span><br><span class="line"># merge使用方法</span><br><span class="line"># git mergetool</span><br></pre></td></tr></table></figure></p>
 
-先下载并安装BeyondCompare
-命令输入如下配置#difftool 配置git config --global diff.tool bc4git config --global difftool.b
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/posts/3765ef4c.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
       
     </div>
 
@@ -517,14 +509,24 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/git/" rel="tag"># git</a>
+          
+            <a href="/tags/mergetool/" rel="tag"># mergetool</a>
+          
+            <a href="/tags/BeyondCompare/" rel="tag"># BeyondCompare</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -534,14 +536,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -766,6 +769,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.0"></script>
+<script src="/js/post-details.js?v=7.1.0"></script>
+
+
 
   
 
@@ -781,6 +788,8 @@
 
   
 
+
+  
 
 
   

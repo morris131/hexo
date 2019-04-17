@@ -2,27 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
-    
-    
   <url>
-    <loc>http://yoursite.com/posts/c2c6eabe.html</loc>
-    <lastmod>2019-04-15T08:23:49.922Z</lastmod>
+    <loc>http://yoursite.com/posts/3765ef4c.html</loc>
+    <lastmod>2019-04-17T08:03:50.901Z</lastmod>
     <data>
         <display>
-        <title>循环依赖的三种方式</title>
-        <pubTime>2018-09-12T10:16:22.000Z</pubTime>
+        <title>git设置mergetool可视化工具BeyondCompare</title>
+        <pubTime>2018-04-16T16:00:00.000Z</pubTime>
         
-        <tag>spring </tag>
+        <tag>git </tag>
          
-        <tag>循环依赖 </tag>
+        <tag>mergetool </tag>
+         
+        <tag>BeyondCompare </tag>
          
          
            
              
-              <breadCrumb title="spring" url="http://yoursite.com/categories/spring/"/>
+              <breadCrumb title="git" url="http://yoursite.com/categories/git/"/>
           
         </display>
     </data>
     </url>
 
+    
+    
 </urlset>
